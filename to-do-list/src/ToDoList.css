@@ -126,25 +126,31 @@ button.del:hover{
 }
 
 button.delAll{
+    border:1px solid #ff004c;
     background: none;
-    border: 1px solid #ff004c;
-    border-radius: 5px;
-    padding: 15px;
+    padding:15px;
     color: #ff004c;
     font-weight: bold;
+    border-radius:5px;
+    cursor: pointer;
+    margin: 30px auto;
 }
+
 button.delAll:hover{
     background: #ff004c;
     color: #fff;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 900px){
     form{
-        width:100%;
+        width: 95%;
     }
-
     .listaTarefas{
-        width: 100%;
+        width: 95%;
     }
+}
+
+.iconeCentral{
+    width: 80%;
+    margin: 10px auto;
 }
